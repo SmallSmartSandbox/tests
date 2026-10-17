@@ -1,0 +1,9 @@
+{
+  "name": "basic-read-file",
+  "description": "Test that the agent can read a file.",
+  "task": "read the file named essay.txt in the workspace root and print its contents",
+  "max_steps": 100,
+  "timeout": 120,
+  "expected_files": ["essay.txt"],
+  "allowed_tools": ["read_file"]
+}
