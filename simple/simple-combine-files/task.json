@@ -1,5 +1,5 @@
 {
-  "name": "basic-combine-files",
+  "name": "simple-combine-files",
   "description": "Test that the agent can read multiple files and combine their contents.",
   "task": "read a.txt and b.txt, then create combined.txt containing both files' contents separated by a single newline",
   "max_steps": 100,

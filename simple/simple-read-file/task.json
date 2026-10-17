@@ -1,5 +1,5 @@
 {
-  "name": "basic-read-file",
+  "name": "simple-read-file",
   "description": "Test that the agent can read a file.",
   "task": "read the file named essay.txt in the workspace root and print its contents",
   "max_steps": 100,

@@ -1,5 +1,5 @@
 {
-  "name": "basic-edit-file",
+  "name": "simple-edit-file",
   "description": "Test that the agent can edit a file.",
   "task": "edit the file named essay.txt in the workspace root and add the text 'Hello, World!' at the end of it",
   "max_steps": 100,

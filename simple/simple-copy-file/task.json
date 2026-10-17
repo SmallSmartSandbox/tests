@@ -1,0 +1,9 @@
+{
+  "name": "simple-copy-file",
+  "description": "Test that the agent can read a file and reproduce its contents in a new file.",
+  "task": "read source.txt and write its exact contents to a file named copy.txt in the workspace root",
+  "max_steps": 100,
+  "timeout": 120,
+  "expected_files": ["copy.txt"],
+  "allowed_tools": ["read_file", "edit_file"]
+}

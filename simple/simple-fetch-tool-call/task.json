@@ -1,5 +1,5 @@
 {
-  "name": "basic-fetch-tool-call",
+  "name": "simple-fetch-tool-call",
   "description": "Test that the agent can fetch a web page and write a summary to a file.",
   "task": "fetch https://example.com and write a one-sentence summary of the page content to a file named summary.txt in the workspace root",
   "max_steps": 100,

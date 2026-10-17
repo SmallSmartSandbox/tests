@@ -1,5 +1,5 @@
 {
-  "name": "basic-write-file",
+  "name": "simple-write-file",
   "description": "Test that the agent can create a new file using write mode.",
   "task": "create a file named greeting.txt in the workspace root containing exactly the text 'Hello, SSSB!'",
   "max_steps": 100,
