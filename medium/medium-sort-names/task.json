@@ -1,0 +1,9 @@
+{
+  "name": "medium-sort-names",
+  "description": "Test that the agent can read a list of names and write them sorted alphabetically.",
+  "task": "read names.txt and create sorted.txt containing the same names sorted alphabetically, one name per line",
+  "max_steps": 150,
+  "timeout": 180,
+  "expected_files": ["sorted.txt"],
+  "allowed_tools": ["read_file", "edit_file"]
+}

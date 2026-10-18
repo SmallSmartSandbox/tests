@@ -1,0 +1,9 @@
+{
+  "name": "medium-filter-students",
+  "description": "Test that the agent can filter records by a threshold and write multiple output files.",
+  "task": "read students.csv and create passing.txt with the names of students whose score is at least 50 and failing.txt with the names of students whose score is below 50, one name per line, in input order",
+  "max_steps": 150,
+  "timeout": 180,
+  "expected_files": ["passing.txt", "failing.txt"],
+  "allowed_tools": ["read_file", "edit_file"]
+}

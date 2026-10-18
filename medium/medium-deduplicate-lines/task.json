@@ -1,0 +1,9 @@
+{
+  "name": "medium-deduplicate-lines",
+  "description": "Test that the agent can remove duplicate lines while preserving first occurrence order.",
+  "task": "read lines.txt and create unique.txt containing each distinct line only once, preserving the order of first occurrence, one line per line",
+  "max_steps": 150,
+  "timeout": 180,
+  "expected_files": ["unique.txt"],
+  "allowed_tools": ["read_file", "edit_file"]
+}

@@ -22,7 +22,9 @@ Tests are grouped by **level** in subfolders (e.g. `simple/`). Each test case co
 
 | Test | Description |
 | --- | --- |
-| _none yet_ | |
+| [medium-sort-names](./medium/medium-sort-names/) | Read a list of names and write them sorted alphabetically |
+| [medium-deduplicate-lines](./medium/medium-deduplicate-lines/) | Remove duplicate lines while preserving first occurrence order |
+| [medium-filter-students](./medium/medium-filter-students/) | Filter students by score threshold into passing and failing files |
 
 ## Complex
 
