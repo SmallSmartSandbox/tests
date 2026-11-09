@@ -1,0 +1,9 @@
+{
+  "name": "complex-financial-reconciliation",
+  "description": "Test that the agent can join orders, FX rates, and refunds to compute net revenue across customers, months, and currencies.",
+  "task": "read customers.csv, orders.csv, fx_rates.csv, and refunds.csv. Only orders with status 'completed' count. Convert amounts to USD using fx_rates.csv (rate for the matching currency and date). Refunds reduce a customer's net revenue and are converted using the refund date rate; refunds affect the month of the refund. Create three files: customer_net_revenue.txt with one 'customer_id,name: amount' line per customer sorted by amount descending then name ascending, amount rounded to 2 decimals; monthly_net_revenue.txt with one 'YYYY-MM: amount' line per month sorted chronologically, amount rounded to 2 decimals; currency_exposure.txt with one 'currency: original_amount -> usd_amount' line per currency sorted by usd_amount descending, both amounts rounded to 2 decimals.",
+  "max_steps": 300,
+  "timeout": 300,
+  "expected_files": ["customer_net_revenue.txt", "monthly_net_revenue.txt", "currency_exposure.txt"],
+  "allowed_tools": ["read_file", "edit_file"]
+}

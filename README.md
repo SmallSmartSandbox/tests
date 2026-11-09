@@ -30,4 +30,7 @@ Tests are grouped by **level** in subfolders (e.g. `simple/`). Each test case co
 
 | Test | Description |
 | --- | --- |
-| _none yet_ | |
+| [complex-financial-reconciliation](./complex/complex-financial-reconciliation/) | Join orders, FX rates, and refunds to compute net revenue across customers, months, and currencies |
+| [complex-inventory-reorder](./complex/complex-inventory-reorder/) | Compute EOQ and reorder points from inventory and demand statistics |
+| [complex-incident-timeline](./complex/complex-incident-timeline/) | Reconstruct incidents from event logs and compute durations, severity, and root causes |
+| [complex-feedback-analysis](./complex/complex-feedback-analysis/) | Score text feedback using a lexicon and produce sentiment and term-frequency summaries |

@@ -1,0 +1,6 @@
+customer_id,name,region,tier
+C001,Alice,North,Gold
+C002,Bob,South,Silver
+C003,Charlie,East,Gold
+C004,Diana,West,Bronze
+C005,Eve,North,Silver

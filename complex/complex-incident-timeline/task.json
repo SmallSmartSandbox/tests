@@ -1,0 +1,9 @@
+{
+  "name": "complex-incident-timeline",
+  "description": "Test that the agent can reconstruct incidents from event logs and compute durations, severity, and root causes.",
+  "task": "read events.csv and create incident_summary.txt with one line per incident in the format 'incident_id: duration_minutes, services, max_severity, root_cause, event_count', sorted by duration descending then incident_id ascending. duration_minutes is the whole number of minutes between the earliest and latest event timestamp for that incident. services is the number of distinct services. max_severity uses the order CRITICAL > HIGH > MEDIUM > LOW > INFO. root_cause is the event_id of the event whose event_type is 'root_cause', or 'unknown' if none. event_count is the number of events for that incident.",
+  "max_steps": 300,
+  "timeout": 300,
+  "expected_files": ["incident_summary.txt"],
+  "allowed_tools": ["read_file", "edit_file"]
+}

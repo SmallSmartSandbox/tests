@@ -1,0 +1,9 @@
+{
+  "name": "complex-inventory-reorder",
+  "description": "Test that the agent can compute EOQ and reorder points from inventory and demand statistics.",
+  "task": "read inventory.csv and demand_stats.csv and create reorder_plan.txt with one 'item: EOQ, reorder_point' line per item sorted alphabetically. EOQ = sqrt(2 * annual_demand * ordering_cost / holding_cost_per_unit), rounded to the nearest whole unit. reorder_point = avg_daily_demand * lead_time_days + 1.65 * std_daily_demand * sqrt(lead_time_days), rounded up to the nearest whole unit.",
+  "max_steps": 300,
+  "timeout": 300,
+  "expected_files": ["reorder_plan.txt"],
+  "allowed_tools": ["read_file", "edit_file"]
+}

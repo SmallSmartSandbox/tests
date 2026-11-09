@@ -1,0 +1,6 @@
+item,on_hand,lead_time_days,annual_demand,ordering_cost,holding_cost_per_unit
+Widget,20,7,1200,50,2.5
+Gadget,15,14,800,40,3.0
+Gizmo,8,3,300,25,1.5
+Doohickey,5,21,150,20,4.0
+Thingamajig,40,5,2000,60,1.0

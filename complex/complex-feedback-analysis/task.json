@@ -1,0 +1,9 @@
+{
+  "name": "complex-feedback-analysis",
+  "description": "Test that the agent can score text feedback using a lexicon and produce sentiment and term-frequency summaries.",
+  "task": "read feedback.txt, lexicon.csv, and stopwords.txt. Create three files: sentiment_summary.txt with lines 'positive: count', 'negative: count', 'neutral: count' (a review is positive if its total lexicon score is >0, negative if <0, neutral if =0); top_terms.txt listing the 10 most frequent non-stopword alphabetic terms as 'term: count', sorted by count descending then term ascending; product_sentiment.txt with one 'product: average_score (review_count reviews)' line per product sorted by average_score descending then product ascending, average_score rounded to 2 decimals. A review's score is the sum of lexicon scores of its words. Products are the text before the first colon in each feedback line.",
+  "max_steps": 300,
+  "timeout": 300,
+  "expected_files": ["sentiment_summary.txt", "top_terms.txt", "product_sentiment.txt"],
+  "allowed_tools": ["read_file", "edit_file"]
+}
